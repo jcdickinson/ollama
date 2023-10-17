@@ -188,6 +188,7 @@ Then generate dependencies and build:
 go generate ./...
 go build .
 ```
+You can also specify `-tags cuda` or `-tags rocm` to both commands for accelerator support. If you are using ROCm, you must also specify ROCM_PATH and CLBlast_DIR in the environment, such as `ROCM_PATH=/opt/rocm CLBlast_DIR=/usr/lib/cmake/CLBlast go generate -tags rocm ./...`.
 
 Next, start the server:
 
