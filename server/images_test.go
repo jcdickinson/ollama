@@ -3,7 +3,7 @@ package server
 import (
 	"testing"
 
-	"github.com/jmorganca/ollama/api"
+	"github.com/jcdickinson/ollama/api"
 )
 
 func TestModelPrompt(t *testing.T) {

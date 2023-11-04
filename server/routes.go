@@ -24,9 +24,9 @@ import (
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
 
-	"github.com/jmorganca/ollama/api"
-	"github.com/jmorganca/ollama/llm"
-	"github.com/jmorganca/ollama/version"
+	"github.com/jcdickinson/ollama/api"
+	"github.com/jcdickinson/ollama/llm"
+	"github.com/jcdickinson/ollama/version"
 )
 
 var mode string = gin.DebugMode

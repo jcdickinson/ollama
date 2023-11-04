@@ -5,7 +5,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/jmorganca/ollama/progressbar"
+	"github.com/jcdickinson/ollama/progressbar"
 )
 
 type Spinner struct {

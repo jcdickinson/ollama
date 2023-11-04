@@ -21,7 +21,7 @@ import (
 
 	"golang.org/x/crypto/ssh"
 
-	"github.com/jmorganca/ollama/api"
+	"github.com/jcdickinson/ollama/api"
 )
 
 type AuthRedirect struct {

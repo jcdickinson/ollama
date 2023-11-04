@@ -20,8 +20,8 @@ import (
 
 	"golang.org/x/sync/errgroup"
 
-	"github.com/jmorganca/ollama/api"
-	"github.com/jmorganca/ollama/format"
+	"github.com/jcdickinson/ollama/api"
+	"github.com/jcdickinson/ollama/format"
 )
 
 var blobDownloadManager sync.Map

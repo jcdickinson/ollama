@@ -23,8 +23,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/jmorganca/ollama/api"
-	"github.com/jmorganca/ollama/format"
+	"github.com/jcdickinson/ollama/api"
+	"github.com/jcdickinson/ollama/format"
 )
 
 //go:embed llama.cpp/*/build/*/bin/*

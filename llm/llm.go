@@ -9,8 +9,8 @@ import (
 
 	"github.com/pbnjay/memory"
 
-	"github.com/jmorganca/ollama/api"
-	"github.com/jmorganca/ollama/format"
+	"github.com/jcdickinson/ollama/api"
+	"github.com/jcdickinson/ollama/format"
 )
 
 type LLM interface {

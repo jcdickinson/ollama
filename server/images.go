@@ -22,10 +22,10 @@ import (
 
 	"golang.org/x/exp/slices"
 
-	"github.com/jmorganca/ollama/api"
-	"github.com/jmorganca/ollama/llm"
-	"github.com/jmorganca/ollama/parser"
-	"github.com/jmorganca/ollama/version"
+	"github.com/jcdickinson/ollama/api"
+	"github.com/jcdickinson/ollama/llm"
+	"github.com/jcdickinson/ollama/parser"
+	"github.com/jcdickinson/ollama/version"
 )
 
 type RegistryOptions struct {

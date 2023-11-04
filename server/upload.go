@@ -12,7 +12,7 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/jmorganca/ollama/api"
+	"github.com/jcdickinson/ollama/api"
 )
 
 const (

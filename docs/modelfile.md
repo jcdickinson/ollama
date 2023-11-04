@@ -80,7 +80,7 @@ FROM llama2
 ```
 
 A list of available base models:
-<https://github.com/jmorganca/ollama#model-library>
+<https://github.com/jcdickinson/ollama#model-library>
 
 #### Build from a `bin` file
 

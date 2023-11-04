@@ -12,7 +12,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/jmorganca/ollama/format"
+	"github.com/jcdickinson/ollama/format"
 )
 
 const (

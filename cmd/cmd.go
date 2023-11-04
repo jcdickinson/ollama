@@ -26,12 +26,12 @@ import (
 	"golang.org/x/crypto/ssh"
 	"golang.org/x/term"
 
-	"github.com/jmorganca/ollama/api"
-	"github.com/jmorganca/ollama/format"
-	"github.com/jmorganca/ollama/progressbar"
-	"github.com/jmorganca/ollama/readline"
-	"github.com/jmorganca/ollama/server"
-	"github.com/jmorganca/ollama/version"
+	"github.com/jcdickinson/ollama/api"
+	"github.com/jcdickinson/ollama/format"
+	"github.com/jcdickinson/ollama/progressbar"
+	"github.com/jcdickinson/ollama/readline"
+	"github.com/jcdickinson/ollama/server"
+	"github.com/jcdickinson/ollama/version"
 )
 
 func CreateHandler(cmd *cobra.Command, args []string) error {

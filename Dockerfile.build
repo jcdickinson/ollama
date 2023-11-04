@@ -20,7 +20,7 @@ ADD https://dl.google.com/go/go1.21.3.linux-$TARGETARCH.tar.gz /tmp/go1.21.3.tar
 RUN mkdir -p /usr/local && tar xz -C /usr/local </tmp/go1.21.3.tar.gz
 
 # build the final binary
-WORKDIR /go/src/github.com/jmorganca/ollama
+WORKDIR /go/src/github.com/jcdickinson/ollama
 COPY . .
 
 ENV GOOS=linux
